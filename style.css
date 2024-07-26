@@ -1,0 +1,145 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #bde8f1;
+    color: #333;
+}
+
+/* Colour palette reference: https://stephcorrigan.com/sophisticated-color-palettes/ (colour palette 9) */
+
+
+.about-me {
+    padding: 40px 20px;
+    background-color: #283539;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #ecf0f1; 
+}
+
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.about-me-text {
+    max-width: 600px;
+}
+
+.about-me h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ecf0f1; 
+}
+
+.about-me p {
+    font-size: 1.2em;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: #819fa7; /*#5b6e74;*/
+    color: #f2f2f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    overflow: hidden; 
+}
+
+
+a {
+    color: #0c0c0d;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #24ed09;
+}
+
+.card-images {
+    display: flex;
+    gap: 10px; /* Space between images */
+    justify-content: center; /* Center images horizontally */
+    flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
+}
+
+.card-images {
+    max-width: 100%; /* Ensure container doesn't exceed card width */
+}
+
+.card-images img {
+    max-width: 100%; /* Prevent images from exceeding the container width */
+    height: auto; /* Maintain aspect ratio */
+    flex: 1 1 auto; /* Allow images to grow and shrink as needed */
+}
+
+
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tags span {
+    background-color:#09b4ed;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #080808; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-me-content {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+
+    .about-me h1 {
+        font-size: 2em;
+    }
+
+    .about-me p {
+        font-size: 1em;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .card-images {
+        flex-direction: column; /* Stack images vertically on small screens */
+        align-items: center; /* Center images horizontally */
+    }
+}
+
+
