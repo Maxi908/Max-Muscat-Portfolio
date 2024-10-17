@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #bde8f1;
+    background-color: rgb(42, 41, 41);
     color: #333;
 }
 
@@ -12,7 +12,7 @@ body {
 
 .about-me {
     padding: 40px 20px;
-    background-color: #283539;
+    background-color: #010101;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -53,7 +53,7 @@ body {
 }
 
 .card {
-    background-color: #819fa7; /*#5b6e74;*/
+    background-color: #1A1A1A; /*#5b6e74;*/
     color: #f2f2f0;
     padding: 20px;
     margin-bottom: 20px;
@@ -65,7 +65,7 @@ body {
 
 
 a {
-    color: #0c0c0d;
+    color: #e8e8ec;
     text-decoration: underline;
 }
 
