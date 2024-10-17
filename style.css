@@ -3,16 +3,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: rgb(42, 41, 41);
+    background-color: rgb(22, 22, 22);
     color: #333;
 }
 
-/* Colour palette reference: https://stephcorrigan.com/sophisticated-color-palettes/ (colour palette 9) */
+
 
 
 .about-me {
     padding: 40px 20px;
-    background-color: #010101;
+    background-color: #0d0d0d;;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -53,10 +53,12 @@ body {
 }
 
 .card {
-    background-color: #1A1A1A; /*#5b6e74;*/
+    background-color: #0d0d0d; 
     color: #f2f2f0;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
+    border-style: solid;
+    border-color: #ecf0f1;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
